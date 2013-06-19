@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://vikparuchuri.com
-title: Vik's Blog
-subtitle: My random thoughts on technology.
-author: Vik Paruchuri
+url: http://equirio.com
+title: Equirio
+subtitle: Data. Simplified.
+author: Equirio
 simple_search: http://google.com/search
 description:
 
@@ -63,13 +63,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user: VikParuchuri
+github_user: equirio
 github_repo_count: 4
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user: VikParuchuri
+twitter_user: equirio
 twitter_tweet_button: true
 
 # Google +1
@@ -90,11 +90,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name: vikparuchuri
+disqus_short_name: equirio
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id: UA-41411988-1
+google_analytics_tracking_id: UA-41418510-1
 
 # Facebook Like
 facebook_like: true

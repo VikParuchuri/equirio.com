@@ -1,6 +1,18 @@
 #archive {
   #content > div { &, > article { padding-top: 0; } }
 }
+
+#content > div {
+  padding-top: 0;
+}
+
+article {
+  header {
+    padding-top: 1em;
+    margin-bottom: .5em;
+  }
+}
+
 #blog-archives {
   article {
     padding: 1em 0 1em;

@@ -2,24 +2,25 @@
 layout: default
 ---
 
-<div class="blog-index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
+<div xmlns="http://www.w3.org/1999/html">
+{% assign index = true %}
+<article role="article">
+<div id="landing">
+    <h2>Our Platform</h2>
+    <h3>Changing the way you work with data</h3>
+    <p>We are creating a flexible system that can quickly use your existing data to predict what will happen in the future. Spend your time innovating, not stuck on the basics.</p>
+    <h3>Deployable</h3>
+    <p>No more writing scratch code, making sure it works, and then painfully putting into practice. Our platform ensures that any code you write can be easily operationalized.</p>
+    <h3>Modular</h3>
+    <p>Don't want to write yet another function that runs a linear regression? With our modular codebase, odds are that you can plug in and re-use that functionality. If you write something good, you can pass the favor along and share it.</p>
+    <h3>Open Source</h3>
+    <p>Want to try the platform out? Want to improve it? Then do it! Our code will always be open source. You can find our latest code at Github.</p>
+    <b>Check us out on <a href="http://github.com/equirio">Github!</a></b>
+
 </div>
+</article>
+</div>
+
 <aside class="sidebar">
   {% if site.blog_index_asides.size %}
     {% include_array blog_index_asides %}
